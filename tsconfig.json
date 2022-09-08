@@ -7,7 +7,7 @@
     "moduleResolution": "Node",
     "jsx": "react",
     "rootDir": "src",
-    "baseurl": "src",
+    "baseUrl": "src",
     "allowJs": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
