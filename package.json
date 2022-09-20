@@ -9,6 +9,11 @@
     "test:staged": "npm test -- --findRelatedTests",
     "test:ci": "npm test -- --covarage"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run test"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
