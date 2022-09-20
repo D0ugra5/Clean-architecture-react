@@ -11,6 +11,7 @@ const makeSut = (url: string = faker.internet.url()): SutTypes => {
   const httpPostClientSpy = new HttpClientPostSpy();
 
   const sut = new RemoteAuthentication(url, httpPostClientSpy);
+
   return {
     sut,
     httpPostClientSpy,
