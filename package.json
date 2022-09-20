@@ -7,9 +7,8 @@
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --covarage"
+    "test:ci": "npm test -- --coverage"
   },
- 
   "keywords": [],
   "author": "",
   "license": "ISC",
